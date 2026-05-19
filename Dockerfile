@@ -22,7 +22,7 @@ COPY lib/cyber-relevance-detector/package.json lib/cyber-relevance-detector/
 COPY scripts/package.json scripts/
 
 # Install dependencies
-RUN pnpm install --frozen-lockfile
+RUN pnpm install
 
 # Copy all source files
 COPY . .
